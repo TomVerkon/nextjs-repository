@@ -1,0 +1,51 @@
+
+
+
+
+├── src/
+│   ├── app/
+│   ├── components/
+│			├── ui/
+│			│   ├── Button/
+│			│   │   ├── Button.tsx
+│			│   │   ├── Button.test.tsx
+│			│   │   └── index.ts
+│			│   ├── Card/
+│			│   └── Modal/
+│			├── layout/
+│			│   ├── Header/
+│			│   ├── Footer/
+│			│   └── Sidebar/
+│			└── features/
+│				├── auth/
+│				└── dashboard/
+├── utils/
+│   ├── formatting.ts
+│   ├── validation.ts
+│   └── helpers.ts
+└── lib/
+    ├── auth.ts
+    ├── api.ts
+    ├── database.ts
+│   ├── lib/
+│   ├── utils/
+│   └── styles/
+├── public/
+├── package.json
+└── next.config.js
+
+src/components/
+├── ui/
+│   ├── Button/
+│   │   ├── Button.tsx
+│   │   ├── Button.test.tsx
+│   │   └── index.ts
+│   ├── Card/
+│   └── Modal/
+├── layout/
+│   ├── Header/
+│   ├── Footer/
+│   └── Sidebar/
+└── features/
+	├── auth/
+	└── dashboard/
