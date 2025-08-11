@@ -10,7 +10,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { useActionState } from 'react';
-const initialState: State = { message: null, errors: {} };
+//const initialState: State = { message: null, errors: {} };
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   const initialState: State = { message: null, errors: {} };
